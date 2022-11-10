@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 10px;
+
+    table {
+        border-spacing: 0;
+        border: none;
+
+        thead {
+            background: #DCE4D1;
+            border-radius: 4px 4px 0px 0px;
+
+        }
+
+        th,
+        td {
+            margin: 0;
+            padding: 0.5rem;
+            border-bottom: 2px solid #D8E1CC;
+
+            
+        }
+
+        
+
+    }
+
+}

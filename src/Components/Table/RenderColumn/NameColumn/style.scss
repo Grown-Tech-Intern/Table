@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.columns {
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.col-checkbox {
+    margin-left: -11px;
+}
+
+.col-product {
+    padding-right: 307px;
+    // padding-left: 40px;
+}
+
+.col-amount {
+    padding-left: 25px;
+    padding-right: 67px;
+}
+
+.col-total {
+    padding-right: 50px;
+}
+
+.dlt {
+    button {
+        border: none;
+        background: #DCE4D1;
+        cursor: pointer;
+        .fa-regular {
+            font-size: 22px;
+            color: #EB5757;
+        }
+    }
+
+   
+}
+
+.column_price, .column_amount, .column_total, .column_deleted {
+    margin-top: -28px;
+}
+
+.column_product {
+    display: flex;
+    margin-left: -25px;
+    .product {
+        margin-left: -13.59px;
+        margin-top: 7px;
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #1C1C1C;
+        }
+    }
+
+}
+
+.column_price {
+    .price {
+        p {
+            font-weight: 600;
+            font-size: 16px;
+
+            span {
+                vertical-align: super;
+                font-size: 10px;
+            }
+        }
+
+    }
+}
+
+.column_amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #74a433;
+    border-radius: 25px;
+    width: 98.5px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 67px;
+    .amount {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-weight: 700;
+            font-size: 16px;
+            margin: 0 22px;
+        }
+
+        button {
+            border: none;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        .decrease {
+            margin-top: -3px
+        }
+
+        .increase {
+            height: 12px;
+            width: 12px;
+        }
+    }
+}
+
+.column_total {
+    margin-left: -15px;
+    .total {
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            color: #14c031;
+
+            span {
+                vertical-align: super;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.column_deleted {
+    button {
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+}
